@@ -285,9 +285,15 @@
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
+    					    					<div class="con">
+
     					<a href="#" class="img-prod"><img id = "paintImg" class="img-fluid paintImg" src="images/image5.jpg" alt="Colorlib Template">
+    						    						<p class="imtext">Normal</p>
+
+    					</div>
     						<div class="overlay"></div>
     					</a>
+
     					<div class="text py-3 px-3">
     						<h3><a href="#">Paint2</a></h3>
     						<div class="d-flex">
@@ -762,6 +768,7 @@
 
       ]
     for (let i = 0; i < images.length; i++) {
+    	for (let turn = 0; turn < 4; turn++){
     	
 		    setInterval(function() {
 		          imageHead[i].src = images[i][turn];
@@ -769,20 +776,21 @@
 		          if (turn == images[i].length) {
 		            turn =  0;
 		          }
-		          if (turn=0){
-		          	imtext.innerText = "Normal"
+		          if (turn==0){
+		          	imtext[i].innerText = "Normal"
 		          }
 		          else if (turn==1){
-		          	imtext.innerText = "Protanopia"
+		          	imtext[i].innerText = "Protanopia"
+		          	imtext[i].styles.left =
 		          }
 		          else if (turn==2){
-		          	imtext.innerText = "Deuteranopia"
+		          	imtext[i].innerText = "Deuteranopia"
 		          }
 		          else if (turn==3){
-		          	imtext.innerText = "Tritanopia"
+		          	imtext[i].innerText = "Tritanopia"
 		          }
 		    }, 3000);
-		  
+		  }
   }
   </script>
 
