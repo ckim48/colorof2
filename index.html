@@ -774,7 +774,18 @@
 		          if (turn == images[i].length) {
 		            turn =  0;
 		          }
-		          if (turn=0)
+		          if (turn=0){
+		          	imtext.innerText = "Normal"
+		          }
+		          else if (turn==1){
+		          	imtext.innerText = "Protanopia"
+		          }
+		          else if (turn==2){
+		          	imtext.innerText = "Deuteranopia"
+		          }
+		          else if (turn==3){
+		          	imtext.innerText = "Tritanopia"
+		          }
 		    }, 3000);
 		  
   }
