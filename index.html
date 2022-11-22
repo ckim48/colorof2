@@ -752,6 +752,7 @@
 
   <script>
     var imageHead = document.getElementsByClassName("paintImg");
+    var imtext = document.getElementsByClassName("imtext");
     var turn = 0;
     var images = [
       ["images/normal/image1.jpg",
@@ -773,6 +774,7 @@
 		          if (turn == images[i].length) {
 		            turn =  0;
 		          }
+		          if (turn=0)
 		    }, 3000);
 		  
   }
