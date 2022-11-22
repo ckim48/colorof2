@@ -10103,3 +10103,16 @@ textarea.form-control {
 .font-bold {
   font-weight: bold;
 }
+
+
+.font-green {
+  color: green;
+}
+
+.font-red {
+  color: darkred;
+}
+
+.font-blue {
+  color: darkblue;
+}
