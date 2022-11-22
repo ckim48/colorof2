@@ -10076,3 +10076,22 @@ textarea.form-control {
 .subheading2{
   color: gray;
 }
+#paintImg{
+  transition: 0.5s ease-in-out;
+}
+.imtext{
+  position:absolute;
+    top: 85%;
+  left: 35%;
+    display: inline-block;
+  background-color: rgba(180,180,180,0.6);
+    color:black;
+  font-weight:bold;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 7px;
+
+}
+.con{
+  position:relative;
+}

@@ -269,7 +269,12 @@
     		<div class="row">
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/image1.jpg" alt="Colorlib Template">
+    					<div class="con">
+    					<a href="#" class="img-prod">
+    						<img id="paintImg" class="img-fluid paintImg" src="images/image1.jpg" alt="Colorlib Template">
+    						<p class="imtext">Normal</p>
+
+    					</div>
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
@@ -285,7 +290,7 @@
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="#" class="img-prod"><img class="img-fluid" src="images/image5.jpg" alt="Colorlib Template">
+    					<a href="#" class="img-prod"><img id = "paintImg" class="img-fluid paintImg" src="images/image5.jpg" alt="Colorlib Template">
     						<div class="overlay"></div>
     					</a>
     					<div class="text py-3 px-3">
@@ -744,5 +749,38 @@
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
+
+  <script>
+    var imageHead = document.getElementsByClassName("paintImg");
+    var turn = 0;
+    var images = [
+      ["images/normal/image1.jpg",
+      "images/protanopia/image1.jpg",
+     "images/deuteranopia/image1.jpg",
+     "images/tritanopia/image1.jpg",],
+
+      ["images/normal/image5.jpg",
+      "images/protanopia/image5.jpg",
+     "images/deuteranopia/image5.jpg",
+     "images/tritanopia/image5.jpg",]
+
+      ]
+    for (let i = 0; i < images.length; i++) {
+    	
+		    setInterval(function() {
+		          imageHead[i].src = images[i][turn];
+		          turn = turn + 1;
+		          if (turn == images[i].length) {
+		            turn =  0;
+		          }
+		    }, 3000);
+		  
+  }
+  </script>
+
+
+</script>
+
+
   </body>
 </html>
