@@ -10119,3 +10119,15 @@ textarea.form-control {
 .indent{
   text-indent: 30px;
 }
+.btn-donate{
+  color:white;
+  background-color: #1DAA32;
+  transition: 0.3s;
+  padding-left:18px;
+  padding-right:18px;
+
+}
+.btn-donate:hover{
+  color:white;
+  background-color: gray;
+}
