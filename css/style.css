@@ -10156,3 +10156,21 @@ textarea.form-control {
   height:200px;
   object-fit: cover;
 }
+.product-img2{
+  width:100%;
+  height:230px !important;
+  object-fit: cover;
+}
+
+.donateimg{
+  width: 90%;
+
+  border-radius: 40px;
+}
+
+.mouse2 {
+  position: absolute;
+
+  right: 0;
+  top: -30px;
+  z-index: 99; }
