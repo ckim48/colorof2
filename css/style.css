@@ -10199,7 +10199,9 @@ textarea.form-control {
   object-fit: cover;
 }
   }
-
+.text-white{
+  color:white;
+}
 .mouse2 {
   position: absolute;
 
