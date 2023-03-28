@@ -8384,7 +8384,7 @@ h1, h2, h3, h4, h5,
         bottom: 0;
         left: 0;
         right: 0;
-        background: #000000;
+        background: #fff;
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 750px;
@@ -10159,8 +10159,9 @@ textarea.form-control {
 .caption{
   font-style: italic;
 }
-.arrow{
+.arrow2{
   font-size: 80px;
+  margin-top: 150px;
 }
 .pro-img{
   width:300px;
@@ -10208,3 +10209,6 @@ textarea.form-control {
   right: 0;
   top: -30px;
   z-index: 99; }
+.imdes{
+  border: none;
+}
