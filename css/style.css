@@ -3541,9 +3541,12 @@ input[type="button"].btn-block {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .myli{
+    margin-right: 25px;
+  }
     .mymx2{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .myyim{
         margin-left: 30px;
@@ -8298,6 +8301,10 @@ h1, h2, h3, h4, h5,
   text-align: center;
   margin: 0 auto;
   display: block; }
+.mouse-icon:hover {
+background: #ffa45c;
+  
+}
 
 .mouse-wheel {
   height: 30px;
@@ -8711,7 +8718,12 @@ h1, h2, h3, h4, h5,
 .ftco-product .owl-carousel .owl-stage-outer {
   padding-bottom: 2em;
   position: relative; }
-
+/*.img-prod{
+  height:20px;
+}*/
+.mytitle{
+  text-align: center;
+}
 .product {
   display: block;
   width: 100%;
