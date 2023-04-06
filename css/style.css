@@ -10138,6 +10138,9 @@ textarea.form-control {
 .imdes{
   border: none;
 }
+.text-it{
+  font-style: italic;
+}
 .arrow3{
   font-size: 80px;
   margin-top: 0px;
