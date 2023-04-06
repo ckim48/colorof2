@@ -10084,10 +10084,8 @@ textarea.form-control {
 .caption{
   font-style: italic;
 }
-.arrow2{
-  font-size: 80px;
-  margin-top: 150px;
-}
+
+
 .pro-img{
   width:300px;
   object-fit: cover;
@@ -10139,4 +10137,33 @@ textarea.form-control {
   z-index: 99; }
 .imdes{
   border: none;
+}
+.arrow3{
+  font-size: 80px;
+  margin-top: 0px;
+  display: none;
+}
+.arrow2{
+  font-size: 80px;
+  margin-top: 200px;
+}
+@media (max-width: 760px) {
+  .arrow2{
+    display: none;
+  }
+  .arrow3{
+    display: block;
+  }
+}
+@media (max-width: 1100px) {
+  .arrow2{
+    margin-top: 120px;
+  }
+ 
+}
+@media (max-width: 1000px) {
+  .arrow2{
+    margin-top: 90px;
+  }
+ 
 }
