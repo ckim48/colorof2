@@ -10170,3 +10170,11 @@ textarea.form-control {
   }
  
 }
+
+.navbar
+{
+  margin-bottom:0px !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+ }
