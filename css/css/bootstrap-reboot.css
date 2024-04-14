@@ -38,6 +38,10 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.dull {
+    filter: brightness(3%) contrast(3%);
+}
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
